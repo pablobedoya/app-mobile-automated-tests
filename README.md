@@ -1,6 +1,6 @@
 # app-mobile-automated-tests
 
-Este projeto contém testes automatizados para  [aplicativo móvel](https://github.com/pablobedoya/app-mobile-automated-tests/blob/main/src/main/resources/app/cadastro_clientes_teste.apk), cujo objetivo é realizar operações de CRUD em cima da entidade Cliente.
+Este projeto contém testes automatizados para um [aplicativo móvel](https://github.com/pablobedoya/app-mobile-automated-tests/blob/main/src/main/resources/app/cadastro_clientes_teste.apk), cujo objetivo é realizar operações de CRUD em cima da entidade Cliente.
  
   ### Tecnologias utilizadas:
   * Java
@@ -8,7 +8,6 @@ Este projeto contém testes automatizados para  [aplicativo móvel](https://gith
   * Appium
   * Junit
   * Cucumber
-  * Cluecumber Report
   * Java Faker
 
   ### Destaques:
@@ -21,7 +20,7 @@ Este projeto contém testes automatizados para  [aplicativo móvel](https://gith
 ### Pré-requisitos
 * Clonar o repositório do projeto: `$ git clone https://github.com/pablobedoya/app-mobile-automated-tests.git`
 * Rodar o comando Maven para resolver as dependências: `$ mvn clean install -DskipTests`
-* Instalar o [JDK 8](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+* Instalar o [JDK 8](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html) (o JDK 8 é necessário pois versões superiores não possuem compatibilidade com o Android SDK)
 * Instalar o [Android Studio](https://developer.android.com/studio) (a instalação do Android Studio traz consigo o Android SDK e possibilita a execução de um emulador de Android)
 * Configurar a variável de ambiente JAVA_HOME, apontando para o diretório em que o JDK 8 foi instalado
 * Adicionar referência a JAVA_HOME/bin na variável de ambiente PATH
